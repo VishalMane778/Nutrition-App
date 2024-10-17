@@ -1,4 +1,4 @@
 package com.yash.nutritionapp.dao;
 
-public class AddYourdao {
+public interface NotificationDao {
 }

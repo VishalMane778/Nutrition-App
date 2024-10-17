@@ -1,4 +1,4 @@
 package com.yash.nutritionapp.service;
 
-public class AddYourservice {
+public interface NotificationService {
 }

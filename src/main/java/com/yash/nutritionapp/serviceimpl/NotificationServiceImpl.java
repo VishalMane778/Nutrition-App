@@ -1,4 +1,4 @@
 package com.yash.nutritionapp.serviceimpl;
 
-public class AddYourServiceImpl {
+public class NotificationServiceImpl {
 }

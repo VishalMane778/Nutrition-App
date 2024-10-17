@@ -1,4 +1,4 @@
 package com.yash.nutritionapp.daoimpl;
 
-public class AddYourDaoImpl {
+public class NotificationDaoImpl {
 }
