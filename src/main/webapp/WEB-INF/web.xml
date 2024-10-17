@@ -3,8 +3,5 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-  <welcome-file-list>
-    <welcome-file>jsp/-------Your_JSP_File_Name-------</welcome-file>
-  </welcome-file-list>
   <display-name>Archetype Created Web Application</display-name>
 </web-app>
