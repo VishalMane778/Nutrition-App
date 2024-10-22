@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centering content vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+h3 {
+    color: #27ae60; /* Green color for success message */
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 1.5em; /* Increased font size for emphasis */
+    text-align: center; /* Center text */
+}
+
+p {
+    font-size: 1.2em; /* Slightly larger font size for paragraphs */
+    text-align: center; /* Center text */
+    margin: 10px 0; /* Margin for spacing */
+}
+
+a {
+    color: #3498db; /* Link color */
+    text-decoration: none;
+    font-weight: bold; /* Bold links */
+    margin: 0 10px; /* Horizontal spacing between links */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    background-color: #fff; /* White background for the content area */
+    padding: 30px; /* Increased padding for a spacious feel */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    width: 90%; /* Responsive width */
+    max-width: 500px; /* Maximum width */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+button:hover {
+    background-color: #2ecc71;
+}

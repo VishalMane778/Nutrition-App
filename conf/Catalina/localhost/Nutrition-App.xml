@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context docBase="C:/Users/divyanee.desale/Downloads/HelloProject/Nutrition-App/src/main/webapp">
+  <Resources cacheMaxSize="10240">
+    <PreResources base="C:/Users/divyanee.desale/Downloads/HelloProject/Nutrition-App/target/classes" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/WEB-INF/classes"/>
+    <PostResources base="C:/Users/divyanee.desale/.m2/repository/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/mysql-connector-j-8.0.33.jar"/>
+    <PostResources base="C:/Users/divyanee.desale/.m2/repository/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/protobuf-java-3.21.9.jar"/>
+  </Resources>
+</Context>
