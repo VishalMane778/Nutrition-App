@@ -13,7 +13,7 @@ public class JDBCUtil {
 
             String url = "jdbc:mysql://localhost:3306/nutrition_app";
             String user = "root";
-            String pass = "Pass";
+            String pass = "root";
 
             return DriverManager.getConnection(url, user, pass);
 

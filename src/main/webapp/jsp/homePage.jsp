@@ -14,6 +14,10 @@
                 <a href="#">Contact Us</a>
                 <a href="jsp/loginPage.jsp">Login</a>
             </ul>
+        </div><br>
+
+        <div>
+            <a href="jsp/viewNutrients.jsp">View Nutrients</a>
         </div>
 </body>
 </html>

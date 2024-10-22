@@ -36,7 +36,7 @@
     <h1 class="text-center">Add Nutrient</h1>
 
      <!-- Bootstrap Form -->
-    <form action="nutrients" method="post">
+    <form action="../nutrients" method="post">
         <div class="form-group">
             <label for="nutrientName">Nutrient name:</label>
             <input type="text" class="form-control" id="nutrientName" name="nutrientName" required>

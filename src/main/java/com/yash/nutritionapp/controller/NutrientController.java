@@ -43,9 +43,7 @@ public class NutrientController extends HttpServlet{
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         List<Nutrient> nutrients = nutrientService.getAllNutrients();
         req.setAttribute("nutrients", nutrients);
-        req.getRequestDispatcher("viewNutrients.jsp").forward(req, resp);
-
-
+        req.getRequestDispatcher("jsp/viewNutrients.jsp").forward(req, resp);
     }
 
 }

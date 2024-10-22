@@ -66,4 +66,16 @@ public class Nutrient {
         this.nutrientName = nutrientName;
     }
 
+    @Override
+    public String toString() {
+        return "Nutrient{" +
+                "nutrientName='" + nutrientName + '\'' +
+                ", nutrientCalorie=" + nutrientCalorie +
+                ", nutrientCarbs=" + nutrientCarbs +
+                ", nutrientSugar=" + nutrientSugar +
+                ", nutrientFat=" + nutrientFat +
+                ", nutrientProtein=" + nutrientProtein +
+                ", nutrientDescription='" + nutrientDescription + '\'' +
+                '}';
+    }
 }
